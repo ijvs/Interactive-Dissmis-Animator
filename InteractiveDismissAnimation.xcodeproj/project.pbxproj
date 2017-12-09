@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3EA551921FD729DB007BF79B /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA551911FD729DB007BF79B /* ModalViewController.swift */; };
 		3ECC5A851FD7227C004D17C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECC5A841FD7227C004D17C9 /* AppDelegate.swift */; };
 		3ECC5A871FD7227C004D17C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECC5A861FD7227C004D17C9 /* ViewController.swift */; };
 		3ECC5A8A1FD7227C004D17C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ECC5A881FD7227C004D17C9 /* Main.storyboard */; };
 		3ECC5A8C1FD7227C004D17C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ECC5A8B1FD7227C004D17C9 /* Assets.xcassets */; };
 		3ECC5A8F1FD7227C004D17C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ECC5A8D1FD7227C004D17C9 /* LaunchScreen.storyboard */; };
+		3ECC5A981FD722FF004D17C9 /* ModalDraggingControllerTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECC5A971FD722FF004D17C9 /* ModalDraggingControllerTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3EA551911FD729DB007BF79B /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
 		3ECC5A811FD7227C004D17C9 /* InteractiveDismissAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InteractiveDismissAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ECC5A841FD7227C004D17C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3ECC5A861FD7227C004D17C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		3ECC5A8B1FD7227C004D17C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3ECC5A8E1FD7227C004D17C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3ECC5A901FD7227C004D17C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ECC5A971FD722FF004D17C9 /* ModalDraggingControllerTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalDraggingControllerTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				3ECC5A841FD7227C004D17C9 /* AppDelegate.swift */,
 				3ECC5A861FD7227C004D17C9 /* ViewController.swift */,
 				3ECC5A881FD7227C004D17C9 /* Main.storyboard */,
+				3EA551911FD729DB007BF79B /* ModalViewController.swift */,
+				3ECC5A971FD722FF004D17C9 /* ModalDraggingControllerTransition.swift */,
 				3ECC5A8B1FD7227C004D17C9 /* Assets.xcassets */,
 				3ECC5A8D1FD7227C004D17C9 /* LaunchScreen.storyboard */,
 				3ECC5A901FD7227C004D17C9 /* Info.plist */,
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EA551921FD729DB007BF79B /* ModalViewController.swift in Sources */,
 				3ECC5A871FD7227C004D17C9 /* ViewController.swift in Sources */,
+				3ECC5A981FD722FF004D17C9 /* ModalDraggingControllerTransition.swift in Sources */,
 				3ECC5A851FD7227C004D17C9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
